@@ -183,7 +183,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "blogsbyadesh.vercel.app",
+          href: "https://blogsbyadesh.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {

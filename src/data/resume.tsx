@@ -168,6 +168,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Tech log Site",
+      href: "",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        "Developed a tech blog site.",
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "blogsbyadesh.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/adeshsk18/tech-blog",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/myblog.png",
+      video:
+        "",
+    },
+    {
       title: "Cafe Management App",
       href: "",
       dates: "Nov 2024 - Dec 2024",

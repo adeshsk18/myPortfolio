@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { InteractiveHoverButton } from "@/components/hoverbutton";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -37,6 +38,7 @@ export default function Page() {
               </Avatar>
             </BlurFade>
           </div>
+          <InteractiveHoverButton>View My Resume</InteractiveHoverButton>
         </div>
       </section>
       <section id="about">
@@ -49,7 +51,7 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-      
+
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>

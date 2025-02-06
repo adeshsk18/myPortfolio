@@ -168,6 +168,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Expense Tracker",
+      href: "",
+      dates: "Jan 2025 - Present",
+      active: true,
+      description:
+        "Developed an expense tracker.",
+      technologies: [
+        "React",
+        "CSS",
+        "JavaScript",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://v0-expense-tracker-krmodv.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/exptracker.png",
+      video:
+        "",
+    },
+    {
       title: "Tech log Site",
       href: "",
       dates: "Jan 2025 - Present",

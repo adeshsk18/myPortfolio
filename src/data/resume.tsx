@@ -45,15 +45,9 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://www.instagram.com/kodekalmathadesh",
+        url: "https://x.com/akodekalmath?s=21&t=6u-c2RNH1u0EMbXKBsBc_A",
         icon: Icons.x,
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
         navbar: true,
       },
       email: {
@@ -168,6 +162,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Productivity Pro",
+      href: "",
+      dates: "Dec 2024 - Present",
+      active: true,
+      description:
+        "Developed an all in one productivity app with task manager, project manager(coming soon).",
+      technologies: [
+        "Firebase",
+        "React",
+        "CSS",
+        "JavaScript",
+        "Material UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/adeshsk18/productivityPro",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/prodpro.png",
+      video:
+        "",
+    },
+    {
       title: "Expense Tracker",
       href: "",
       dates: "Jan 2025 - Present",
@@ -193,35 +217,6 @@ export const DATA = {
         },
       ],
       image: "/exptracker.png",
-      video:
-        "",
-    },
-    {
-      title: "Tech log Site",
-      href: "",
-      dates: "Jan 2025 - Present",
-      active: true,
-      description:
-        "Developed a tech blog site.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Tailwind CSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://blogsbyadesh.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/adeshsk18/tech-blog",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/myblog.png",
       video:
         "",
     },
